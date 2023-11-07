@@ -129,7 +129,7 @@ class SnowyState implements WeatherConditionState {
 // Singleton Pattern: WeatherData
 class WeatherData extends Observable {
     private static WeatherData instance;
-    private static final String URL = "jdbc:postgresql://localhost:5432/tutdb";
+    private static final String URL = "jdbc:postgresql://localhost:5432/sdp";
     private static final String USER = "postgres";
     private static final String PASSWORD = "h1H1h2H2";
 
